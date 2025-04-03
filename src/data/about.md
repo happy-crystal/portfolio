@@ -7,6 +7,7 @@ In addition to my technical work, I enjoy exploring new blockchain innovations, 
 # Some History
 
 - At 17, I built my first basic website using HTML and JavaScript, sparking my interest in programming.
+- At 20, I started developing of various full-stack projects.
 
 - At 22, I started experimenting with cryptographic algorithms and blockchain fundamentals.
 
@@ -70,21 +71,21 @@ In addition to my technical work, I enjoy exploring new blockchain innovations, 
 
 # Websites from People I Admire
 
-- [Alex Peysakhovich](http://alexpeys.github.io/)
-- [Chris Lengerich](http://www.chrislengerich.com/)
-- [Chris Saad](https://www.chrissaad.com/)
-- [Duncan Tomlin](http://duncantomlin.com/)
-- [Ed Kearney](https://edkearney.com/)
-- [Hawley Moore](http://hawleymoore.com/)
-- [Holman Gao](https://golmansax.com/)
-- [Ian Webster](http://ianww.com/)
-- [Johanna Flato](https://www.johannaflato.com/)
-- [Judy Mou](http://www.judymou.com/)
-- [Judy Suh](https://www.judysuh.com/)
-- [Kristina Monakhova](https://kristinamonakhova.com/)
-- [Noah Trueblood](http://notrueblood.com/)
-- [Ruoxi Wang](http://ruoxiw.com/)
-- [Tom Sachs](https://www.tomsachs.org/)
-- [Will Holley](https://willholley.com/)
+- [Vitalik Buterin](https://vitalik.eth.limo/)
+- [Anatoly Yakovenko](http://solana.com/)
+- [Gavin Wood ](https://gavwood.com/)
+- [Dan Boneh](https://crypto.stanford.edu/~dabo/)
+- [Georgios Konstantopoulos](https://gakonst.com/)
+- [Sam Williams](https://www.arweave.org/)
+- [Stani Kulechov](https://aave.com/)
+- [Hayden Adams](https://uniswap.org/)
+- [Ryan Selkis](https://messari.io/)
+- [Illia Polosukhin](https://near.org/)
+- [Zooko Wilcox](https://electriccoin.co/)
+- [Edward Snowden*](https://freedom.press/)
+- [Eli Ben-Sasson](https://starkware.co/)
+- [Pak](https://muratpak.com/)
+- [Beeple (Mike Winkelmann)](https://www.beeple-crap.com/)
+- [XCOPY](https://superrare.com/xcopy)
 
 If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me, and I'll add you.
