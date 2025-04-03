@@ -11,7 +11,7 @@ const skills = [
   },
   {
     title: 'Move',
-    competency: 4,
+    competency: 5,
     category: ['Blockchain', 'Languages'],
   },
   {
