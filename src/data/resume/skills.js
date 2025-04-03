@@ -1,233 +1,151 @@
 const skills = [
   {
-    title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    title: 'Solidity',
+    competency: 5,
+    category: ['Blockchain', 'Languages'],
   },
   {
-    title: 'Node.JS',
+    title: 'Rust',
+    competency: 5,
+    category: ['Blockchain', 'Languages'],
+  },
+  {
+    title: 'Move',
+    competency: 4,
+    category: ['Blockchain', 'Languages'],
+  },
+  {
+    title: 'Ethereum Smart Contracts',
+    competency: 5,
+    category: ['Blockchain'],
+  },
+  {
+    title: 'Solana Smart Contracts',
+    competency: 5,
+    category: ['Blockchain'],
+  },
+  {
+    title: 'XRPL Smart Contracts',
+    competency: 4,
+    category: ['Blockchain'],
+  },
+  {
+    title: 'Web3.js',
+    competency: 5,
+    category: ['Blockchain', 'Javascript'],
+  },
+  {
+    title: 'Ethers.js',
+    competency: 5,
+    category: ['Blockchain', 'Javascript'],
+  },
+  {
+    title: 'Anchor',
+    competency: 4,
+    category: ['Blockchain', 'Rust'],
+  },
+  {
+    title: 'Hardhat',
+    competency: 5,
+    category: ['Blockchain', 'Tools'],
+  },
+  {
+    title: 'Foundry',
+    competency: 4,
+    category: ['Blockchain', 'Tools'],
+  },
+  {
+    title: 'Metaplex',
+    competency: 4,
+    category: ['Blockchain', 'Solana'],
+  },
+  {
+    title: 'Next.js',
     competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'React',
-    competency: 2,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Next.JS',
-    competency: 3,
+    title: 'Node.js',
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
+    title: 'Express.js',
     competency: 4,
-    category: ['Web Development', 'Tools'],
+    category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
+    title: 'TypeScript',
+    competency: 5,
+    category: ['Web Development', 'Languages'],
+  },
+  {
+    title: 'GraphQL',
+    competency: 4,
+    category: ['Web Development', 'Databases'],
   },
   {
     title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
     competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Databases', 'Web Development'],
+  },
+  {
+    title: 'PostgreSQL',
+    competency: 4,
+    category: ['Databases', 'Web Development'],
   },
   {
     title: 'Redis',
     competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'AWS',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['Databases', 'Web Development'],
   },
   {
     title: 'Docker',
-    competency: 3,
-    category: ['Tools', 'Data Engineering'],
+    competency: 4,
+    category: ['DevOps', 'Tools'],
   },
   {
-    title: 'AWS Lambda',
+    title: 'Kubernetes',
     competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['DevOps', 'Tools'],
   },
   {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
+    title: 'AWS',
+    competency: 4,
+    category: ['DevOps', 'Cloud'],
   },
   {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
+    title: 'CI/CD (GitHub Actions, Jenkins)',
+    competency: 4,
+    category: ['DevOps', 'Tools'],
   },
   {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
+    title: 'IPFS',
+    competency: 4,
+    category: ['Blockchain', 'Decentralized Storage'],
   },
   {
-    title: 'PyTorch',
+    title: 'Arweave',
     competency: 3,
-    category: ['ML Engineering', 'Python'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Typescript',
-    competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Blockchain', 'Decentralized Storage'],
   },
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Ruby',
-    competency: 2,
     category: ['Languages'],
   },
   {
-    title: 'Ruby on Rails',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'C++',
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
+    title: 'Tailwind CSS',
     competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Scikit-Learn',
-    competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
-  },
-  {
-    title: 'Pylint',
-    competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Web Development', 'CSS'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
-// this is a list of colors that I like. The length should be === to the
-// number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
   '#6968b3',
   '#37b1f5',
@@ -246,7 +164,7 @@ const categories = [...new Set(skills.flatMap(({ category }) => category))]
   .sort()
   .map((category, index) => ({
     name: category,
-    color: colors[index],
+    color: colors[index % colors.length],
   }));
 
 export { categories, skills };

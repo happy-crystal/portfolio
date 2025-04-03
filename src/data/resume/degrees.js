@@ -1,16 +1,16 @@
 const degrees = [
   {
-    school: 'Universiti Putra Malaysia',
-    degree: 'Master of Science in Computer Science',
-    // link: 'https://stanford.edu',
-    year: 2022,
+    school: 'University of Malaya',
+    degree: 'M.Sc. Computer Science',
+    link: 'https://www.um.edu.my/',
+    year: 2019,
   },
-  // {
-  //   school: 'University at Buffalo',
-  //   degree: 'B.S. Electrical Engineering, Computer Engineering',
-  //   link: 'https://buffalo.edu',
-  //   year: 2012,
-  // },
+  {
+    school: 'Universiti Putra Malaysia',
+    degree: 'B.Sc. Software Engineering',
+    link: 'https://www.upm.edu.my/',
+    year: 2015,
+  },
 ];
 
 export default degrees;
