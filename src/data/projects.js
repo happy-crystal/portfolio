@@ -1,48 +1,84 @@
-// TODO Add a couple lines about each project
-const data = [
+const projects = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'KyberSwap',
+    subtitle: 'Decentralized exchange and aggregator',
+    link: 'https://kyberswap.com/',
+    image: '/images/projects/kyberswap.jpg',
+    date: '2021-06-15',
+    desc: 'KyberSwap is a decentralized exchange (DEX) operating across multiple blockchain networks, providing users with optimal token swap rates through liquidity aggregation.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'Genius Yield',
+    subtitle: 'AI-powered DeFi yield optimizer',
+    link: 'https://www.geniusyield.co/',
+    image: '/images/projects/geniusyield.jpg',
+    date: '2022-02-10',
+    desc: 'Genius Yield is a DeFi platform combining AI-driven yield optimization with a decentralized exchange, helping users maximize crypto asset returns through advanced trading strategies.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'NMKR',
+    subtitle: 'NFT and token minting platform',
+    link: 'https://www.nmkr.io/',
+    image: '/images/projects/nmkr.jpg',
+    date: '2022-09-01',
+    desc: 'NMKR simplifies the creation and sale of NFTs and tokens across multiple blockchains, providing creators with user-friendly tools for minting and distribution.',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'Fireblocks Tokenization Engine',
+    subtitle: 'Secure asset tokenization platform',
+    link: 'https://www.fireblocks.com/',
+    image: '/images/projects/fireblocks.jpg',
+    date: '2021-12-20',
+    desc: 'Fireblocks provides an end-to-end solution for secure minting, custody, and transfer of tokenized assets, including stablecoins, security tokens, and other digital assets.',
+  },
+  {
+    title: 'KeepKey',
+    subtitle: 'Secure hardware wallet for digital assets',
+    link: 'https://shapeshift.com/keepkey',
+    image: '/images/projects/keepkey.jpg',
+    date: '2020-08-05',
+    desc: 'KeepKey is a hardware wallet designed to store digital assets securely, offering PIN protection and a sleek interface for managing cryptocurrencies with ease.',
+  },
+  {
+    title: 'BNB Arbitrage Bot',
+    subtitle: 'Automated trading bot for Binance Smart Chain',
+    link: 'https://bnbarbitrage-bot.com/',
+    image: '/images/projects/bnbarbitrage.jpg',
+    date: '2021-07-10',
+    desc: 'A high-frequency trading bot that leverages arbitrage opportunities across Binance Smart Chain decentralized exchanges.',
+  },
+  {
+    title: 'GemWallet',
+    subtitle: 'XRPL browser extension wallet',
+    link: 'https://gemwallet.com/',
+    image: '/images/projects/gemwallet.jpg',
+    date: '2022-05-08',
+    desc: 'GemWallet is a non-custodial browser wallet for the XRP Ledger, enabling seamless transactions and dApp integrations.',
+  },
+  {
+    title: 'Ambire Wallet',
+    subtitle: 'Secure self-custodial smart contract wallet',
+    link: 'https://www.ambire.com/',
+    image: '/images/projects/ambire.jpg',
+    date: '2021-09-30',
+    desc: 'Ambire Wallet is a non-custodial smart contract wallet for Ethereum and EVM-compatible chains with gas fee optimization and security features.',
+  },
+  {
+    title: 'Bento Finance',
+    subtitle: 'DeFi yield optimizer',
+    link: 'https://bento.finance/',
+    image: '/images/projects/bento.jpg',
+    date: '2022-03-18',
+    desc: 'Bento Finance is a decentralized finance yield optimizer that auto-compounds returns for various liquidity pools across multiple chains.',
+  },
+  {
+    title: 'DXMint (DX.app)',
+    subtitle: 'Token launch and minting platform',
+    link: 'https://www.dx.app/dxmint',
+    image: '/images/projects/dxmint.jpg',
+    date: '2022-08-22',
+    desc: 'DXMint provides a platform for easy token launches, allowing users to mint and distribute tokens with decentralized governance features.',
   },
 ];
 
-export default data;
+export default projects;
