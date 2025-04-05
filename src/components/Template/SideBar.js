@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Cahaya Alyssa</h2>
         <p>
-          <a href="mailto:cute.kitty.shorter@gmail.com">cute.kitty.shorter@gmail.com</a>
+          <a href="mailto:crystal.best.2002@gmail.com">crystal.best.2002@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,8 +22,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Alyssa. I am a{' '}
-        full-stack and blockchain developer.
+        Hi, I&apos;m Alyssa. I am a blockchain engineer and smart contract developer
+        with a passion for building secure, scalable Web3 infrastructure. I specialize
+        in Solana, Ethereum and Sui, and have led projects across DeFi, decentralized identity,
+        and DAO governance.
       </p>
       <ul className="actions">
         <li>
